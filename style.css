@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(255, 255, 0);
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+   
+}
+span{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   /* margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 30px;
+    */
+    margin: 20px;
+}
+p{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+nav{
+    margin-right: 150px;
+
+}
+.nav{
+    color: yellow;
+    border: 2px solid rgb(34, 32, 32);
+    padding: 5px;
+    font-size: larger;
+    text-decoration: none;
+    margin: 20px;
+    background-color: rgb(24, 22, 22);
+    box-shadow: 4px 4px 5px black;
+    transition: all 1s;
+
+}
+
+.nav:hover{
+    transform: scale(1.1);
+}
+
+
+form{
+    margin-left: 35%;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 5px solid black;
+    width: fit-content;
+    padding: 20px;
+    background-color: rgb(24, 22, 22);
+    color: yellow;
+    
+}
+form:hover{
+    background-color: rgb(41, 39, 39);
+}
+legend{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.about, aside{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    letter-spacing: 1px;
+    
+}
+input{
+    color: black;
+    background-color:  yellow;
+}
+input:hover{
+    background-color: gray;
+}
+
+/*
+img{
+  
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+*/
+figcaption{
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: grey;
+    margin-top: -13px;
+
+}
+button{
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: yellow;
+    color: rgb(24, 22, 22);
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: gray;
+}
+
+/*1st button style
+.button{
+    text-align: center;
+    width: fit-content;
+    background-color: yellow;
+    padding: 10px;
+    color: rgb(24, 22, 22);
+}
+*/
+.footer{
+    color: yellow;
+    border: 1px solid black;
+    margin-left: -20px;
+    margin-right: -20px;
+    background-color: rgb(24, 22, 22);
+    height: auto;
+}
+img{
+    padding: 20px;
+    transition: all 1s;
+    
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.s-m_icons{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   margin: 20px;
+}
+.s-m_icon img{
+    width: 50px;
+    height: auto;
+    border: 1px solid white;
+}
+
+.foot-links{
+    display: flex;
+    justify-content: center;
+    transition: all 1s;
+}
+a{
+    color: yellow;
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.copyright{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+textarea{
+    background-color: yellow;
+}
+textarea:hover{
+    background-color: gray;
+}
+h3{
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    width: 300px;
+    box-shadow: 4px 4px 5px black;
+}
+/*
+.container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    column-gap: 20px;
+}
+*/
+.container{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+    margin: 20px;
+    
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+}
+.ingredients{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.terms{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.quotation{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.orders{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.deposits{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.unforseen{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.balance{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.delivery{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.damage{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.pickup{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.return{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+}
+.note{
+    margin: 20px;
+    justify-content: center;
+}
+.cancel{
+    margin: 10px;
+}
+h5{
+    margin: 5px;
+}
+
+
+
